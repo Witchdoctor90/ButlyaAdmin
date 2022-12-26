@@ -1,0 +1,47 @@
+﻿@model dynamic
+
+@using ButlyaAdmin.Models
+
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Data.css">
+    <title>Data</title>
+</head>
+
+<body>
+
+<div class="tabLinks">
+    <button class="tabLink active" onclick="openTable(this, 'Distributings')">
+        <h3>Розвіз</h3>
+    </button>
+    <button class="tabLink" onclick="openTable(this, 'Distributings')">
+        <h3>Розвіз</h3>
+    </button>
+</div>
+
+<div class="tools-panel">
+    @*todo*@
+</div>
+
+<div class="tabContent">
+    @await Html.PartialAsync("Partial/DistrubingsTable")
+</div>
+
+
+</body> 
+
+<script type="text/javascript" src="/js/data.js"></script>
+
+
+
+</html>
+
+

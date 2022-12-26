@@ -1,0 +1,40 @@
+﻿@model ButlyaAdmin.ViewModels.RegisterViewModel
+
+
+@{
+    Layout = null;
+    ViewData["Title"] = "Register";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+<div>
+    <div class="center">
+        <h2>Реєстрація</h2>
+        <form method="post" asp-controller="Account" asp-action="Register">
+            <div class="text-field">
+                <input asp-for="Username" required="required">
+                <span asp-validation-for="Username"></span>
+                <label asp-for="Username"></label>
+            </div>
+            <div class="text-field">
+                <input asp-for="Password" required>
+                <span asp-validation-for="Password"></span>
+                <label asp-for="Password"></label>
+            </div>
+            <div class="text-field">
+                <input asp-for="PasswordConfirm" required>
+                <span asp-validation-for="PasswordConfirm"></span>
+                <label asp-for="PasswordConfirm"></label>
+            </div>
+            <input type="submit" value="Реєстрація">
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Data.css">
+    <title>Data</title>
+</head>
+
+<body>
+
+<div class="tabLinks">
+    <button class="tabLink" onclick="openTable(event, 'Distrubings')">
+        <h3>Розвіз</h3>
+    </button>
+</div>
+
+<div class="tools-panel">
+    
+</div>
+
+<div class="tabContent">
+    
+
+<table class="data-table" id="Distrubings">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Дата</th>
+        <th>Клієнт</th>
+        <th>Адреса</th>
+        <th>К-сть</th>
+        <th>К-сть повернено</th>
+        <th>Сума</th>
+        <th>Тиждень</th>
+    </tr>
+    </thead>
+    <tbody>
+            <tr onclick="selectRow(this)">
+                <td>@item.id</td>
+                <td>@item.date</td>
+                <td>@item.Client</td>
+                <td>@item.Adress</td>
+                <td>@item.Count</td>
+                <td>@item.ReturnCount</td>
+                <td>@item.Sum</td>
+                <td>@item.weekNumber</td>
+            </tr>
+    </tbody>
+</table>
+</div>
+
+
+</body> 
+
+<script>
+    const selectRow = (el) => {
+        let selected = document.querySelectorAll('.active-row')
+        selected.forEach(element => element.classList.remove('active-row'));
+        el.classList.add('active-row');
+    }
+    
+    const openTable = (evt, tableName) => {
+    
+    var i, tables, tabLinks;
+    tables = document.getElementsByClassName('data-table');
+    for (i = 0; i<tables.length; i++){
+        tables[i].style.display = "none";
+    }
+    
+    tabLinks = document.getElementsByClassName("tablink")
+    for (i = 0; i < tabLinks; i++){
+        tabLinks[i].classList.remove('active');    
+    }
+    
+    document.getElementById(tableName).style.display = 'block';
+    evt.currentTarget.classList.add('active');
+    }
+        
+        
+</script>
+
+</html>
+
+

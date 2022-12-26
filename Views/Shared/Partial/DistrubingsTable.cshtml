@@ -1,0 +1,35 @@
+﻿@using ButlyaAdmin.Models
+
+<table class="data-table" id="Distributings">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Дата</th>
+        <th>Клієнт</th>
+        <th>Адреса</th>
+        <th>К-сть</th>
+        <th>К-сть повернено</th>
+        <th>Сума</th>
+        <th>Тиждень</th>
+    </tr>
+    </thead>
+    <tbody>
+    @using (ApplicationContext context = new ApplicationContext())
+    {
+        var distributings = context.Distributings.ToList();
+        foreach (var item in distributings)
+        {
+            <tr onclick="selectRow(this)">
+                <td class="id-column">@item.id</td>
+                <td class="date-column">@item.date</td>
+                <td class="client-column">@item.Client</td>
+                <td class="adress-column">@item.Adress</td>
+                <td class="count-column">@item.Count</td>
+                <td class="returnCount-column">@item.ReturnCount</td>
+                <td class="sum-column">@item.Sum</td>
+                <td class="weekNumber-column">@item.weekNumber</td>
+            </tr>
+        }
+    }
+    </tbody>
+</table>
