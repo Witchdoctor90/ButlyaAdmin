@@ -1,0 +1,29 @@
+﻿@using ButlyaAdmin.Models
+
+<table class="data-table" id="CashlessInvoices">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Дата</th>
+        <th>Клієнт</th>
+        <th>№ Накладної</th>
+        <th>К-сть бутлів</th>
+    </tr>
+    </thead>
+    <tbody>
+    @using (ApplicationContext context = new ApplicationContext())
+    {
+        var cashlessInvoices = context.CashlessInvoices.ToList();
+        foreach (var item in cashlessInvoices)
+        {
+            <tr onclick="selectRow(this)">
+                <td class="id-column">@item.Id</td>
+                <td class="date-column">@item.Date</td>
+                <td class="client-column">@item.Client</td>
+                <td class="invoiceNumber-column">@item.InvoiceNumber</td>
+                <td class="count-column">@item.BottlesCount</td>
+            </tr>
+        }
+    }
+    </tbody>
+</table>

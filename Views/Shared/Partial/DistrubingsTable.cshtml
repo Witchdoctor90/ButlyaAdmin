@@ -1,6 +1,6 @@
-﻿@using ButlyaAdmin.Models
+﻿@using ButlyaAdmin.Models.Data.DBRepos
 
-<table class="data-table" id="Distributings">
+<table class="data-table active" id="Distributings">
     <thead>
     <tr>
         <th>ID</th>
@@ -14,14 +14,14 @@
     </tr>
     </thead>
     <tbody>
-    @using (ApplicationContext context = new ApplicationContext())
+    @using (var db = new DistributingsRepository())
     {
-        var distributings = context.Distributings.ToList();
+        var distributings = db.GetList().ToList();
         foreach (var item in distributings)
         {
             <tr onclick="selectRow(this)">
-                <td class="id-column">@item.id</td>
-                <td class="date-column">@item.date</td>
+                <td class="id-column">@item.Id</td>
+                <td class="date-column">@item.Date</td>
                 <td class="client-column">@item.Client</td>
                 <td class="adress-column">@item.Adress</td>
                 <td class="count-column">@item.Count</td>

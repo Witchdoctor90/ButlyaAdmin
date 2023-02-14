@@ -11,13 +11,38 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ButlyaAdmin.Data
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20221222114506_initial")]
-    partial class initial
+    [Migration("20221227091655_cashlessInvoicesAdd")]
+    partial class cashlessInvoicesAdd
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.11");
+
+            modelBuilder.Entity("ButlyaFestAdmin.Models.CashlessInvoice", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("BottlesCount")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Client")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("InvoiceNumber")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateOnly?>("date")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("id");
+
+                    b.ToTable("CashlessInvoices");
+                });
 
             modelBuilder.Entity("ButlyaFestAdmin.Models.Distributing", b =>
                 {

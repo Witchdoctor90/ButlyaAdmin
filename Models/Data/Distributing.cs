@@ -1,4 +1,9 @@
-﻿namespace ButlyaFestAdmin.Models;
+﻿    using System.Runtime.CompilerServices;
+    using System.Text.Json;
+using System.Text.Json.Serialization;
+    using Microsoft.AspNetCore.Identity;
+
+    namespace ButlyaAdmin.Models;
 
 public class Distributing : BaseDataObject
 {
@@ -9,11 +14,20 @@ public class Distributing : BaseDataObject
     public int Sum { get; set; }
     public int weekNumber { get; set; }
     
-    public Distributing(){}
+    
+    public Distributing(int id, DateOnly? date) : base(id, date)
+    {
+    }
+    
 
+    public Distributing()
+    {
+    }
+    
+    [JsonConstructor]
     public Distributing(string client, string adress, int count, int returnCount, int sum, int weekNumber)
     {
-        date = DateOnly.FromDateTime(DateTime.Now);
+        Date = DateOnly.FromDateTime(DateTime.Now);
         Client = client;
         Adress = adress;
         Count = count;

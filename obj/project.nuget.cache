@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "C+Ym1/ouKeQ2i1dgWCrZayQDQuETfVNkNr6+Y4OV0B0hyKIy4CkE3oK08eWusbCT66mR1YblRHeOWVBMv0hC7Q==",
+  "dgSpecHash": "3T/etsAo2nGqMfZoub/i8i34c7OA0/stQSkwXOsWjfkqZLGv9eq0o0fp9sjFchhJnH89neJ1GtWPPjyLJ5RttQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\ButlyaAdmin.csproj",
   "expectedPackageFiles": [
@@ -37,8 +37,12 @@
     "C:\\Users\\Алекс\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\Алекс\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\Алекс\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\Алекс\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\Алекс\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\Алекс\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\Алекс\\.nuget\\packages\\system.text.json\\7.0.1\\system.text.json.7.0.1.nupkg.sha512",
+    "C:\\Users\\Алекс\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\Алекс\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\Алекс\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\Алекс\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.13\\microsoft.netcore.app.host.win-x64.6.0.13.nupkg.sha512"
   ],
   "logs": []
 }

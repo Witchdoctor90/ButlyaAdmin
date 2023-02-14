@@ -1,5 +1,5 @@
 using ButlyaAdmin.Models;
-using ButlyaFestAdmin.Models;
+using ButlyaAdmin.Models.JsonConverters;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -7,7 +7,8 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews()
+    .AddJsonOptions(options => {options.JsonSerializerOptions.Converters.Add(new DateOnlyJsonConverter());});
 
 
 builder.Services.AddDbContext<IdentityContext>(options =>

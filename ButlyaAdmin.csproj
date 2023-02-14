@@ -4,6 +4,7 @@
         <TargetFramework>net6.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>acc27149-1c6f-4a4a-b45b-8d71c8d87230</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
@@ -79,6 +80,7 @@
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
       <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.11" />
+      <PackageReference Include="System.Text.Json" Version="7.0.1" />
     </ItemGroup>
 
     <ItemGroup>

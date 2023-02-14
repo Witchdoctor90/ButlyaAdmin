@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iN1dFEAIaoypfPpPXK8J/YwbKHXunfQxxCqAaH3jpHc=",
+  "Hash": "Fb2E0pz2HTPepoCXAOJWveMTgPijH+S6Q1liEdY30QY=",
   "Source": "ButlyaAdmin",
   "BasePath": "_content/ButlyaAdmin",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\wwwroot\\css\\_Layout.css",
+      "SourceId": "ButlyaAdmin",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\wwwroot\\",
+      "BasePath": "_content/ButlyaAdmin",
+      "RelativePath": "css/_Layout.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\_Layout.css"
+    },
+    {
+      "Identity": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\wwwroot\\css\\cards.css",
+      "SourceId": "ButlyaAdmin",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\wwwroot\\",
+      "BasePath": "_content/ButlyaAdmin",
+      "RelativePath": "css/cards.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cards.css"
+    },
     {
       "Identity": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\wwwroot\\css\\Data.css",
       "SourceId": "ButlyaAdmin",
@@ -34,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\css\\Data.css"
     },
     {
+      "Identity": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\wwwroot\\css\\home.css",
+      "SourceId": "ButlyaAdmin",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\wwwroot\\",
+      "BasePath": "_content/ButlyaAdmin",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
       "Identity": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\wwwroot\\css\\Login.css",
       "SourceId": "ButlyaAdmin",
       "SourceType": "Discovered",
@@ -49,23 +100,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
-    },
-    {
-      "Identity": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\wwwroot\\css\\Sidebar.css",
-      "SourceId": "ButlyaAdmin",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\wwwroot\\",
-      "BasePath": "_content/ButlyaAdmin",
-      "RelativePath": "css/Sidebar.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Sidebar.css"
     },
     {
       "Identity": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\wwwroot\\html RAW\\css\\login.css",
@@ -102,6 +136,23 @@
       "OriginalItemSpec": "wwwroot\\html RAW\\data.html"
     },
     {
+      "Identity": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\wwwroot\\html RAW\\home\\index.html",
+      "SourceId": "ButlyaAdmin",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\wwwroot\\",
+      "BasePath": "_content/ButlyaAdmin",
+      "RelativePath": "html RAW/home/index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html RAW\\home\\index.html"
+    },
+    {
       "Identity": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\wwwroot\\html RAW\\login.html",
       "SourceId": "ButlyaAdmin",
       "SourceType": "Discovered",
@@ -117,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html RAW\\login.html"
+    },
+    {
+      "Identity": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\wwwroot\\html RAW\\partial\\card.html",
+      "SourceId": "ButlyaAdmin",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\wwwroot\\",
+      "BasePath": "_content/ButlyaAdmin",
+      "RelativePath": "html RAW/partial/card.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html RAW\\partial\\card.html"
     },
     {
       "Identity": "C:\\Users\\Алекс\\RiderProjects\\ButlyaFestAdminAPI\\ButlyaAdmin\\wwwroot\\html RAW\\sidebar.html",

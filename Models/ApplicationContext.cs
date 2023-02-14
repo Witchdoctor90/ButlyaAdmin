@@ -1,4 +1,4 @@
-﻿using ButlyaFestAdmin.Models;
+﻿using ButlyaAdmin.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ButlyaAdmin.Models;
@@ -6,6 +6,7 @@ namespace ButlyaAdmin.Models;
 public class ApplicationContext : DbContext
 {
     public DbSet<Distributing> Distributings { get; set; }
+    public DbSet<CashlessInvoice> CashlessInvoices { get; set; }
     public ApplicationContext()
     {
     }
@@ -18,4 +19,6 @@ public class ApplicationContext : DbContext
     {
         optionsBuilder.UseSqlite("Data Source=Data.db");
     }
+    
+    
 }

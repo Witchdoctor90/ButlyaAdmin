@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body{
+    display: flex;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+}
+
+main{
+    width: 80%;
+    margin-left: 240px;
+}
+
+.analytics-widget{
+    background-color:  	#5abcd8;
+    border-radius: 5px;
+}
+
+.analytics-title{
+    position: relative;
+    width:30%;
+    height: min-content;
+    padding:10px;
+    cursor: pointer;
+}
+
+.analytics-title hr{
+    width: 100%;
+}
+
+.analytics-title i{
+    position: relative;
+    background-color: transparent;
+    top:-30px;
+    left: 150px;
+}
+
+.analytics-cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;    
+}
+
+.analytics-cards .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #74ccf4;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px rgba(0,0,0,0.05);
+
+    height: 150px;
+    width: 250px;
+
+    font-size: 20px;
+    color: white;
+}
+
+.card .count{
+    font-size: 40px;
+}
+
+.more-button{
+    margin: auto;
+}
+

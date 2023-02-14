@@ -1,6 +1,5 @@
 ﻿@model dynamic
 
-@using ButlyaAdmin.Models
 
 @{
     Layout = "_Layout";
@@ -8,34 +7,42 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/Data.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <title>Data</title>
 </head>
 
 <body>
-
-<div class="tabLinks">
-    <button class="tabLink active" onclick="openTable(this, 'Distributings')">
-        <h3>Розвіз</h3>
-    </button>
-    <button class="tabLink" onclick="openTable(this, 'Distributings')">
-        <h3>Розвіз</h3>
-    </button>
-</div>
-
-<div class="tools-panel">
-    @*todo*@
-</div>
-
+    <div class="tabLinks">
+        <button class="tabLink active" onclick="openTable(this, 'Distributings')">
+            <h3>Розвіз</h3>
+        </button>
+        <button class="tabLink" onclick="openTable(this, 'CashlessInvoices')">
+            <h3>Безготівкові накладні</h3>
+        </button>
+    </div>
+    
+    
+    
 <div class="tabContent">
     @await Html.PartialAsync("Partial/DistrubingsTable")
-</div>
-
-
+    @await Html.PartialAsync("Partial/CashlessInvoicesTable")
+    <div class="tools-panel">
+        <button class="tool-button add" onclick="addButton()">
+            <box-icon name='plus'></box-icon>
+        </button>
+        <button class="tools-button remove">
+            <box-icon name='minus'></box-icon>
+        </button>
+        <button class="tools-button edit">
+            <box-icon name='edit-alt'></box-icon>
+        </button>
+    </div>
+</div>  
 </body> 
 
 <script type="text/javascript" src="/js/data.js"></script>
