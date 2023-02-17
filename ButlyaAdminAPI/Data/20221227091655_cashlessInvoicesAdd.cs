@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace ButlyaAdmin.Data
+namespace ButlyaAdminAPI.Data
 {
     public partial class cashlessInvoicesAdd : Migration
     {
