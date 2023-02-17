@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\pavlo\\Desktop\\ButlyaAdmin_proj\\ButlyaAdmin\\wwwroot\\css\\Data.css",
+      "PackagePath": "staticwebassets\\css\\Data.css"
+    },
+    {
+      "Id": "C:\\Users\\pavlo\\Desktop\\ButlyaAdmin_proj\\ButlyaAdmin\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\pavlo\\Desktop\\ButlyaAdmin_proj\\ButlyaAdmin\\wwwroot\\css\\_Layout.css",
+      "PackagePath": "staticwebassets\\css\\_Layout.css"
+    },
+    {
+      "Id": "C:\\Users\\pavlo\\Desktop\\ButlyaAdmin_proj\\ButlyaAdmin\\wwwroot\\css\\cards.css",
+      "PackagePath": "staticwebassets\\css\\cards.css"
+    },
+    {
+      "Id": "C:\\Users\\pavlo\\Desktop\\ButlyaAdmin_proj\\ButlyaAdmin\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\pavlo\\Desktop\\ButlyaAdmin_proj\\ButlyaAdmin\\wwwroot\\html RAW\\css\\login.css",
+      "PackagePath": "staticwebassets\\html RAW\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\pavlo\\Desktop\\ButlyaAdmin_proj\\ButlyaAdmin\\wwwroot\\html RAW\\data.html",
+      "PackagePath": "staticwebassets\\html RAW\\data.html"
+    },
+    {
+      "Id": "C:\\Users\\pavlo\\Desktop\\ButlyaAdmin_proj\\ButlyaAdmin\\wwwroot\\html RAW\\home\\index.html",
+      "PackagePath": "staticwebassets\\html RAW\\home\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\pavlo\\Desktop\\ButlyaAdmin_proj\\ButlyaAdmin\\wwwroot\\html RAW\\login.html",
+      "PackagePath": "staticwebassets\\html RAW\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\pavlo\\Desktop\\ButlyaAdmin_proj\\ButlyaAdmin\\wwwroot\\html RAW\\partial\\card.html",
+      "PackagePath": "staticwebassets\\html RAW\\partial\\card.html"
+    },
+    {
+      "Id": "C:\\Users\\pavlo\\Desktop\\ButlyaAdmin_proj\\ButlyaAdmin\\wwwroot\\html RAW\\sidebar.html",
+      "PackagePath": "staticwebassets\\html RAW\\sidebar.html"
+    },
+    {
+      "Id": "C:\\Users\\pavlo\\Desktop\\ButlyaAdmin_proj\\ButlyaAdmin\\wwwroot\\html RAW\\table.html",
+      "PackagePath": "staticwebassets\\html RAW\\table.html"
+    },
+    {
+      "Id": "C:\\Users\\pavlo\\Desktop\\ButlyaAdmin_proj\\ButlyaAdmin\\wwwroot\\js\\data.js",
+      "PackagePath": "staticwebassets\\js\\data.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ButlyaAdmin.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ButlyaAdmin.props",
+      "PackagePath": "build\\ButlyaAdmin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ButlyaAdmin.props",
+      "PackagePath": "buildMultiTargeting\\ButlyaAdmin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ButlyaAdmin.props",
+      "PackagePath": "buildTransitive\\ButlyaAdmin.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
